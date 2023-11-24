@@ -1,0 +1,12 @@
+{
+    "name": "root/my_graph_plugin",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "Root\\MyGraphPlugin\\": "includes/"
+        }
+    },
+    "require": {
+        "nesbot/carbon": "^2.71"
+    }
+}
